@@ -39,8 +39,8 @@ Dentro de dicha plataforma veremos una especie de puerta (formada por dos objeto
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Además, en el script para el Player (PlayerController.cs) he añadido un método para gestionar las interacciones que pueda tener el Player con otros objetos que se encuentran en mi escena, y qué comportamiento adoptará el Player cuando se produzcan dichas interacciones.
-A continuación ilustro con gifs las distintos tipos de interacciones en mi juego:
+Además, en el script para el Player (PlayerController.cs) he añadido un método OnTriggerEnter para gestionar las interacciones que pueda tener el Player con otros objetos que se encuentran en mi escena, y qué comportamiento adoptará el Player cuando se produzcan dichas interacciones.
+A continuación ilustro con gifs los distintos tipos de interacciones en mi juego:
 
 - Colisión del GameObject con dos objetos Cube a los cuáles le he asignado como tag "Destroy": cuando el GameObject hace contacto con estos objetos los hace desaparecer.
 
