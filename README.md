@@ -46,25 +46,34 @@ A continuación ilustro con gifs las distintos tipos de interacciones en mi jueg
 
 ![Destroy-Interaction](https://user-images.githubusercontent.com/32130215/225727397-ee13519d-87dd-454f-91d7-6a5e316f00a7.gif)
 
+
 - Colisión del GameObject con un objeto Cube de tag "Slow": cuando el GameObject hace contacto con este objeto su velocidad se reduce.
 
 ![Slow-Interaction](https://user-images.githubusercontent.com/32130215/225730685-3c099fb1-eb42-41a9-99e1-40b1b15b6835.gif)
+
 
 - Colisión del GameObject con un objeto Cube de tag "Fast": cuando el GameObject entra en contacto con este objeto su velocidad vuelve a ser la de inicio (si antes había colisionado con el cubo de tag "Slow" entonces su velocidad aumentará de nuevo).
 
 ![Faster_Interaction](https://user-images.githubusercontent.com/32130215/225730774-eca11975-072d-4117-a371-38a3ae2f9aa4.gif)
 
+
 - El GameObject entra en contacto con una superficie (de tipo Cube) con el tag "Bigger": en cuanto el GameObject entre en dicha superficie, aumentará su tamaño.
 
 ![Bigger-Interaction](https://user-images.githubusercontent.com/32130215/225730887-f9259b0d-c162-4c4b-a989-e9ca9ad4bdb2.gif)
+
 
 -  El GameObject colisiona con una pared (de tipo Cube) con tag "Smaller": en cuanto el GameObject colisione con dicha pared, disminuirá su tamaño.
 
 ![Smaller-Interaction](https://user-images.githubusercontent.com/32130215/225730957-c0c58505-d2dc-4b8b-88b2-746307ae173e.gif)
 
+
 - El GameObject colisiona con un objeto Cylinder de tag "Teleport": en cuanto el GameObject haga contacto con dicho objeto automáticamente aparecerá en una ubicación distinta dentro de la escena (se teletransportará a esa nueva ubicación).
 
 ![Teleport-Interaction](https://user-images.githubusercontent.com/32130215/225731256-713a0641-cdcc-43b2-9633-83c4b18ec9e0.gif)
 
+
+En lo gifs (o en el video de mi juego que subi a éste repositorio, podemos observar que en la plataforma que aparece al inicio, a mano izquierda hay 10 bolas rojas idénticas alineadas entre sí. Se trata de las 10 instancias de mi objeto BallPrefab (que ya hablé sobre ello en la otra tarea sobre los Prefabs).
+
+![Captura de pantalla (162)](https://user-images.githubusercontent.com/32130215/225732869-0b61ed7f-2c4d-40d7-9261-fd764ceb6efc.png)
 
 
