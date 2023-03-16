@@ -72,7 +72,7 @@ A continuación ilustro con gifs los distintos tipos de interacciones en mi jueg
 ![Teleport-Interaction](https://user-images.githubusercontent.com/32130215/225731256-713a0641-cdcc-43b2-9633-83c4b18ec9e0.gif)
 
 
-En lo gifs (o en el video de mi juego que subi a éste repositorio, podemos observar que en la plataforma que aparece al inicio, a mano izquierda hay 10 bolas rojas idénticas alineadas entre sí. Se trata de las 10 instancias de mi objeto BallPrefab (que ya hablé sobre ello en la otra tarea sobre los Prefabs).
+En los gifs (o en el video de mi juego que subi a éste repositorio) podemos observar que en la plataforma que aparece al inicio, a mano izquierda hay 10 bolas rojas idénticas alineadas entre sí. Se trata de las 10 instancias de mi objeto BallPrefab (que ya hablé sobre ello en la otra tarea sobre los Prefabs).
 
 ![Captura de pantalla (162)](https://user-images.githubusercontent.com/32130215/225732869-0b61ed7f-2c4d-40d7-9261-fd764ceb6efc.png)
 
