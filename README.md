@@ -31,4 +31,12 @@ Hago click derecho y veo que aparece la lista con los obetos de la escena, y sel
 Guardo los cambios y vuelvo a correr la escena. Ésta vez sí, la cámara seguirá el movimiento del Player en todo momento, así que éste nunca escapará de nuestra vista.
 
 
+Finalmente, he ampliado mi escena añadiendo una rampa (de tipo Plane) que conecta con una nueva Plataforma (construida en base a un objeto de tipo Cube)-
+Dentro de dicha plataforma veremos una especie de puerta (formada por dos objetos Cylinder en los laterales y un objeto Cube en la parte superior).
+
+![Captura de pantalla (161)](https://user-images.githubusercontent.com/32130215/225726009-a6c95cc3-10b2-4a4a-8e2c-f637394d41af.png)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Además, en el script para el Player (PlayerController.cs) he añadido un método para gestionar las interacciones que pueda tener el Player con otros objetos que se encuentran en mi escena, y qué comportamiento adoptará el Player cuando se produzcan dichas interacciones. Dicho comportamiento variará en función del tag que tenga el objeto con el que colisiona. Por ejemplo, si choca con un objeto de tag "Destroy" el Player destruirá dicho objeto, o si choca con objeto de tag "Teleport" entonces automáticamente se teletransportará a otra ubicación distinta de mi escena, etc, etc. 
