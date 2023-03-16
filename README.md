@@ -39,4 +39,10 @@ Dentro de dicha plataforma veremos una especie de puerta (formada por dos objeto
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Además, en el script para el Player (PlayerController.cs) he añadido un método para gestionar las interacciones que pueda tener el Player con otros objetos que se encuentran en mi escena, y qué comportamiento adoptará el Player cuando se produzcan dichas interacciones. Dicho comportamiento variará en función del tag que tenga el objeto con el que colisiona. Por ejemplo, si choca con un objeto de tag "Destroy" el Player destruirá dicho objeto, o si choca con objeto de tag "Teleport" entonces automáticamente se teletransportará a otra ubicación distinta de mi escena, etc, etc. 
+Además, en el script para el Player (PlayerController.cs) he añadido un método para gestionar las interacciones que pueda tener el Player con otros objetos que se encuentran en mi escena, y qué comportamiento adoptará el Player cuando se produzcan dichas interacciones.
+A continuación ilustro con gifs las distintos tipos de interacciones en mi juego:
+
+- Colisión del GameObject con dos objetos Cube a los cuáles le he asignado como tag "Destroy":
+
+![Destroy-Interaction](https://user-images.githubusercontent.com/32130215/225727397-ee13519d-87dd-454f-91d7-6a5e316f00a7.gif)
+
